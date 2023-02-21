@@ -4,8 +4,7 @@ import javax.swing.JOptionPane;
 public class Puzzle extends Frame implements ActionListener{  
 Button b1,b2,b3,b4,b5,b6,b7,b8,b9;  
 Puzzle(){  
-    super("Puzzle - JavaTpoint");
-    //Register the component with the Listener
+    super("Puzzle - JavaTpoint");    
     // initializing the labels
     b1=new Button("1");
     // set the position and size for the button in frame    
@@ -177,6 +176,7 @@ public void actionPerformed(ActionEvent e){
             JOptionPane.showMessageDialog(this,"Congratulations! You won.");    
     }    
 }  
+    
 // main method
 public static void main(String[] args) {  
     new Puzzle();  
